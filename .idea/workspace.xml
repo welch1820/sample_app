@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4ef2f40-58a6-4f83-ac2e-0169cc92e445" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" />
     </list>
@@ -44,10 +43,9 @@
       <file leaf-file-name="authentication_pages_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="0" selection-start="3573" selection-end="3573" vertical-scroll-proportion="0.0">
+            <state line="60" column="56" selection-start="1813" selection-end="1813" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#1412#1812#0" expanded="false" />
-                <element signature="e#1860#2250#0" expanded="false" />
+                <element signature="e#2293#3571#0" expanded="false" />
                 <element signature="e#2339#2465#0" expanded="false" />
                 <element signature="e#2518#2636#0" expanded="false" />
                 <element signature="e#2681#2797#0" expanded="false" />
@@ -57,10 +55,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="relationships_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/relationships_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="29" selection-start="351" selection-end="351" vertical-scroll-proportion="0.20057307">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="user_pages_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/requests/user_pages_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="146" column="56" selection-start="3926" selection-end="3926" vertical-scroll-proportion="0.0">
+            <state line="84" column="72" selection-start="2259" selection-end="2259" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -75,10 +82,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show_follow.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show_follow.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/show_follow.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="70" selection-start="767" selection-end="767" vertical-scroll-proportion="0.38123167">
+            <state line="26" column="70" selection-start="767" selection-end="767" vertical-scroll-proportion="-16.25">
               <folding />
             </state>
           </provider>
@@ -111,15 +118,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="177" column="0" selection-start="2350" selection-end="2350" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -133,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
         <option value="$PROJECT_DIR$/lib/tasks/sample_data.rake" />
         <option value="$PROJECT_DIR$/app/views/shared/_stats.html.erb" />
@@ -149,6 +146,7 @@
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" />
         <option value="$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/relationships_controller.rb" />
       </list>
     </option>
   </component>
@@ -1069,13 +1067,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="80" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="14" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0">
@@ -1146,27 +1137,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="0" selection-start="3573" selection-end="3573" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1412#1812#0" expanded="false" />
-            <element signature="e#1860#2250#0" expanded="false" />
-            <element signature="e#2339#2465#0" expanded="false" />
-            <element signature="e#2518#2636#0" expanded="false" />
-            <element signature="e#2681#2797#0" expanded="false" />
-            <element signature="e#2836#3201#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/user_pages_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="56" selection-start="3926" selection-end="3926" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="57" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0">
@@ -1183,7 +1153,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/show_follow.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="70" selection-start="767" selection-end="767" vertical-scroll-proportion="0.38123167">
+        <state line="26" column="70" selection-start="767" selection-end="767" vertical-scroll-proportion="-16.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/user_pages_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="72" selection-start="2259" selection-end="2259" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="56" selection-start="1813" selection-end="1813" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#2293#3571#0" expanded="false" />
+            <element signature="e#2339#2465#0" expanded="false" />
+            <element signature="e#2518#2636#0" expanded="false" />
+            <element signature="e#2681#2797#0" expanded="false" />
+            <element signature="e#2836#3201#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/relationships_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="29" selection-start="351" selection-end="351" vertical-scroll-proportion="0.20057307">
           <folding />
         </state>
       </provider>
